@@ -1,0 +1,432 @@
+0000.002 (0) Opened log file at time: Wed, 08 Jun 2022 17:29:19 +0000 on http://localhost/wordpress
+0000.204 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.9.3 PHP: 8.0.1 (apache2handler, Windows NT DESKTOP-UKM5NH8 10.0 build 18362 (Windows 10) AMD64) MySQL: 10.4.17-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/8.0.1 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 50.5M | 52M) multisite: N openssl: OpenSSL 1.1.1i  8 Dec 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.399 (0) Free space on disk containing Updraft's temporary directory: 130857.2 MB
+0001.055 (0) Deleting old temporary file: backup_2022-05-22-1803_Landlopers_2f6796033bd8-others.zip.list.tmp
+0001.119 (0) Deleting old temporary file: backup_2022-05-22-1803_Landlopers_2f6796033bd8-plugins.zip.list.tmp
+0001.141 (0) Deleting old temporary file: backup_2022-05-22-1803_Landlopers_2f6796033bd8-themes.zip.list.tmp
+0001.168 (0) Deleting old temporary file: backup_2022-05-22-1803_Landlopers_2f6796033bd8-uploads.zip.list.tmp
+0001.219 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0001.267 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0001.542 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1653242628, seconds_ago=1466732)
+0002.039 (0) Set semaphore last lock (fd) time to 2022-06-08 17:29:21
+0002.089 (0) Semaphore lock (fd) complete
+0002.256 (0) Backup run: resumption=0, nonce=bf244f5a5fa3, file_nonce=bf244f5a5fa3 begun at=1654709359 (2s ago), job type=backup
+0002.382 (0) Scheduling a resumption (1) after 300 seconds (1654709661) in case this run gets aborted
+0002.590 (0) Checking if we have a zip executable available
+0002.721 (0) Creation of backups of directories: beginning
+0003.137 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0036.991 (0) Total entities for the zip file: 872 directories, 4190 files (0 skipped as non-modified), 80.7 MB
+0037.591 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0038.924 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 100 files added (on-disk size: 153 KB)
+0039.452 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 200 files added (on-disk size: 153 KB)
+0040.146 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 300 files added (on-disk size: 153 KB)
+0040.745 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 400 files added (on-disk size: 153 KB)
+0040.924 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.9 MB, 400 (401) files added so far); re-opening (prior size: 153 KB)
+0050.878 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 500 files added (on-disk size: 1720.3 KB)
+0051.205 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 600 files added (on-disk size: 1720.3 KB)
+0051.590 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 700 files added (on-disk size: 1720.3 KB)
+0051.798 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 800 files added (on-disk size: 1720.3 KB)
+0052.006 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 900 files added (on-disk size: 1720.3 KB)
+0052.248 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 1000 files added (on-disk size: 1720.3 KB)
+0052.367 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 4190 files batched, 601 (1002) added so far); re-opening (prior size: 1720.3 KB)
+0071.316 (0) A useful amount of data was added after this amount of zip processing: 21.5 s (normalised: 21.5 s, rate: 1191.2 KB/s)
+0071.830 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 1100 files added (on-disk size: 7183.8 KB)
+0072.236 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 1200 files added (on-disk size: 7183.8 KB)
+0072.583 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 1300 files added (on-disk size: 7183.8 KB)
+0072.893 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 1400 files added (on-disk size: 7183.8 KB)
+0073.135 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 1500 files added (on-disk size: 7183.8 KB)
+0073.357 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 1600 files added (on-disk size: 7183.8 KB)
+0073.554 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 1700 files added (on-disk size: 7183.8 KB)
+0073.796 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (11.9 MB, 752 (1754) files added so far); re-opening (prior size: 7183.8 KB)
+0091.271 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 1800 files added (on-disk size: 11914.1 KB)
+0091.498 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 1900 files added (on-disk size: 11914.1 KB)
+0091.677 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 2000 files added (on-disk size: 11914.1 KB)
+0091.959 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 2100 files added (on-disk size: 11914.1 KB)
+0092.173 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 2200 files added (on-disk size: 11914.1 KB)
+0092.513 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 2300 files added (on-disk size: 11914.1 KB)
+0092.787 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 2400 files added (on-disk size: 11914.1 KB)
+0093.072 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 2500 files added (on-disk size: 11914.1 KB)
+0093.322 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 2600 files added (on-disk size: 11914.1 KB)
+0093.484 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 2700 files added (on-disk size: 11914.1 KB)
+0093.642 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (20.1 MB, 4190 files batched, 1001 (2755) added so far); re-opening (prior size: 11914.1 KB)
+0117.575 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 2800 files added (on-disk size: 17352.5 KB)
+0117.760 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 2900 files added (on-disk size: 17352.5 KB)
+0118.007 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 3000 files added (on-disk size: 17352.5 KB)
+0118.226 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 3100 files added (on-disk size: 17352.5 KB)
+0118.435 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 3200 files added (on-disk size: 17352.5 KB)
+0118.699 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 3300 files added (on-disk size: 17352.5 KB)
+0118.910 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 3400 files added (on-disk size: 17352.5 KB)
+0119.110 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 3500 files added (on-disk size: 17352.5 KB)
+0119.309 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 3600 files added (on-disk size: 17352.5 KB)
+0119.466 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 3700 files added (on-disk size: 17352.5 KB)
+0119.618 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.6 MB, 4190 files batched, 1001 (3756) added so far); re-opening (prior size: 17352.5 KB)
+0135.925 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 3800 files added (on-disk size: 23675.6 KB)
+0136.065 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 3900 files added (on-disk size: 23675.6 KB)
+0136.178 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 4000 files added (on-disk size: 23675.6 KB)
+0136.372 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.tmp: 4100 files added (on-disk size: 23675.6 KB)
+0142.242 (0) Creating zip file manifest (backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.list-temp.tmp)
+0142.378 (0) Successfully created zip file manifest (size: 346075)
+0142.874 (0) Created plugins zip (0) - 24709.3 KB in 139.6 s (177 KB/s) (sha1: ccd3b82561c3aad04977b238d843aa7f6289afee, sha256: 458924c532be12deefefd53ce992af79aac7414d5becbda08d3e58ce266077ec)
+0142.966 (0) Beginning creation of dump of themes (split every: 400 MB)
+0147.274 (0) Total entities for the zip file: 347 directories, 858 files (0 skipped as non-modified), 32.6 MB
+0147.330 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0147.575 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-themes.zip.tmp: 100 files added (on-disk size: 59 KB)
+0147.695 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-themes.zip.tmp: 200 files added (on-disk size: 59 KB)
+0147.817 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-themes.zip.tmp: 300 files added (on-disk size: 59 KB)
+0147.957 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-themes.zip.tmp: 400 files added (on-disk size: 59 KB)
+0148.078 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-themes.zip.tmp: 500 files added (on-disk size: 59 KB)
+0148.226 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-themes.zip.tmp: 600 files added (on-disk size: 59 KB)
+0148.337 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-themes.zip.tmp: 700 files added (on-disk size: 59 KB)
+0148.381 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.3 MB, 858 files batched, 731 (732) added so far); re-opening (prior size: 59 KB)
+0155.338 (0) A useful amount of data was added after this amount of zip processing: 8.5 s (normalised: 8.4 s, rate: 3035.5 KB/s)
+0155.474 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-themes.zip.tmp: 800 files added (on-disk size: 8569.2 KB)
+0157.564 (0) Creating zip file manifest (backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-themes.zip.list-temp.tmp)
+0157.631 (0) Successfully created zip file manifest (size: 68375)
+0157.944 (0) Created themes zip (0) - 15098.8 KB in 14.9 s (1011.9 KB/s) (sha1: 221e40f485dd45eae621b8e37071bfb8045bde65, sha256: 141b4a575f9f38bfa805b2119b49c903255e82fac5c2edc5d7adf90c987b2108)
+0158.094 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0158.151 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content/uploads
+0158.176 (0) finding files: 2018: adding to list (1)
+0158.232 (0) finding files: 2020: adding to list (2)
+0158.254 (0) finding files: 2021: adding to list (3)
+0158.284 (0) finding files: 2022: adding to list (4)
+0158.353 (0) finding files: astra-sites: adding to list (5)
+0158.442 (0) finding files: elementor: adding to list (6)
+0158.461 (0) finding files: wpforms: adding to list (7)
+0158.523 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0159.949 (0) Total entities for the zip file: 19 directories, 118 files (0 skipped as non-modified), 21.1 MB
+0160.072 (0) Zip: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0164.845 (0) Creating zip file manifest (backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-uploads.zip.list-temp.tmp)
+0164.890 (0) Successfully created zip file manifest (size: 6423)
+0165.444 (0) Created uploads zip (0) - 19912.6 KB in 6.9 s (2895.5 KB/s) (sha1: 3cd8929d82548df15cf00745c2ebfd8a2be64e31, sha256: 2b28d289b9d73031c20fc2658378235cc7ef99e838afab11895ea55aee78ee77)
+0165.562 (0) Beginning backup of other directories found in the content directory (index: 0)
+0165.609 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0165.637 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content
+0165.659 (0) finding files: index.php: adding to list (1)
+0165.718 (0) finding files: plugins: skipping: this is the plugins directory
+0165.766 (0) finding files: themes: skipping: this is the themes directory
+0165.811 (0) finding files: updraft: skipping: this is the updraft directory
+0165.842 (0) finding files: upgrade: skipping: excluded by options
+0165.880 (0) finding files: uploads: skipping: this is the uploads directory
+0165.942 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0166.062 (0) Creating zip file manifest (backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-others.zip.list-temp.tmp)
+0166.113 (0) Successfully created zip file manifest (size: 43)
+0166.312 (0) Created others zip (0) - 0.1 KB in 0.4 s (0.3 KB/s) (sha1: a3b05641185ceda8c66d145106629ecc1cbfa7aa, sha256: b2666fb5e3597dc67345b6b078561724a27dffd11f269d189bd032ecaace2ede)
+0166.473 (0) Saving backup status to database (elements: 8)
+0166.680 (0) Beginning creation of database dump (WordPress DB)
+0166.755 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0172.440 (0) Table wp_options: Total expected rows (via COUNT): 391
+0172.478 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0172.818 (0) Table wp_options: Rows added in this batch (next record: 2259): 385 (uncompressed bytes in this segment=5965704) in 5.72 seconds
+0173.327 (0) Table wp_options: finishing file(s) (2, 621.9 KB)
+0174.008 (0) Table wp_users: Total expected rows (via COUNT): 1
+0174.129 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0174.428 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1354) in 0.55 seconds
+0174.718 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0175.363 (0) Table wp_usermeta: Total expected rows (via COUNT): 24
+0175.703 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0175.795 (0) Table wp_usermeta: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=2260) in 0.73 seconds
+0175.998 (0) Table wp_usermeta: finishing file(s) (2, 1.2 KB)
+0176.143 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 21
+0176.177 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0176.272 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 119): 21 (uncompressed bytes in this segment=11273) in 0.20 seconds
+0176.477 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.4 KB)
+0176.593 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0176.686 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=621) in 0.10 seconds
+0176.824 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0176.926 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 3
+0176.983 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0177.083 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=720) in 0.16 seconds
+0177.221 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0177.440 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 51
+0177.477 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0177.665 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 99): 51 (uncompressed bytes in this segment=5077) in 0.27 seconds
+0177.828 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1 KB)
+0178.020 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0178.099 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.17 seconds
+0178.239 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0178.711 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0178.806 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1678) in 0.12 seconds
+0178.924 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0179.218 (0) Table wp_links: Total expected rows (via COUNT): 0
+0179.259 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.06 seconds
+0179.438 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0182.642 (0) Table wp_postmeta: Total expected rows (approximate): 2545
+0185.308 (0) Table wp_postmeta: Rows added in this batch (next record: 3594): 2752 (uncompressed bytes in this segment=9760656) in 5.75 seconds
+0185.565 (0) Table wp_postmeta: finishing file(s) (2, 847.1 KB)
+0186.464 (0) Table wp_posts: Total expected rows (via COUNT): 350
+0186.519 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0186.675 (0) Table wp_posts: Rows added in this batch (next record: 867): 350 (uncompressed bytes in this segment=2378508) in 1.00 seconds
+0186.968 (0) Table wp_posts: finishing file(s) (2, 62 KB)
+0187.264 (0) Table wp_term_relationships: Total expected rows (approximate): 7
+0187.410 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 7 (uncompressed bytes in this segment=783) in 0.16 seconds
+0187.731 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0188.126 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 12
+0188.370 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0188.642 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 16): 12 (uncompressed bytes in this segment=1293) in 0.70 seconds
+0189.001 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0189.357 (0) Table wp_termmeta: Total expected rows (via COUNT): 4
+0189.469 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0189.619 (0) Table wp_termmeta: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=887) in 0.50 seconds
+0190.106 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0190.288 (0) Table wp_terms: Total expected rows (via COUNT): 12
+0190.342 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0190.413 (0) Table wp_terms: Rows added in this batch (next record: 16): 12 (uncompressed bytes in this segment=1078) in 0.20 seconds
+0190.601 (0) Table wp_terms: finishing file(s) (2, 0.6 KB)
+0190.899 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0191.003 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=534) in 0.12 seconds
+0191.114 (0) Table wp_e_events: finishing file(s) (2, 0.4 KB)
+0191.399 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 12
+0191.523 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0191.631 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 12): 12 (uncompressed bytes in this segment=2142) in 0.38 seconds
+0191.904 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.7 KB)
+0192.066 (0) Table wp_wpmailsmtp_debug_events: Total expected rows (via COUNT): 5
+0192.119 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0192.163 (0) Table wp_wpmailsmtp_debug_events: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=2407) in 0.13 seconds
+0192.297 (0) Table wp_wpmailsmtp_debug_events: finishing file(s) (2, 0.8 KB)
+0192.646 (0) Table wp_wpmailsmtp_tasks_meta: Total expected rows (via COUNT): 2
+0192.715 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0192.770 (0) Table wp_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=828) in 0.26 seconds
+0192.970 (0) Table wp_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.5 KB)
+0192.998 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db.gz (line 1884, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0193.043 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_options.table.tmpr2260.gz (1/20/fopen): adding to final database dump
+0193.127 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_options.table.gz (2/20/fopen): adding to final database dump
+0193.144 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_users.table.tmpr2.gz (3/20/fopen): adding to final database dump
+0193.189 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_users.table.gz (4/20/fopen): adding to final database dump
+0193.361 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_usermeta.table.tmpr25.gz (5/20/fopen): adding to final database dump
+0193.430 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_usermeta.table.gz (6/20/fopen): adding to final database dump
+0193.485 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_actionscheduler_actions.table.tmpr120.gz (7/20/fopen): adding to final database dump
+0193.514 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_actionscheduler_actions.table.gz (8/20/fopen): adding to final database dump
+0193.600 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/20/fopen): adding to final database dump
+0193.679 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_actionscheduler_claims.table.gz (10/20/fopen): adding to final database dump
+0193.768 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_actionscheduler_groups.table.tmpr4.gz (11/20/fopen): adding to final database dump
+0193.880 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_actionscheduler_groups.table.gz (12/20/fopen): adding to final database dump
+0193.986 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_actionscheduler_logs.table.tmpr100.gz (13/20/fopen): adding to final database dump
+0194.091 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_actionscheduler_logs.table.gz (14/20/fopen): adding to final database dump
+0194.182 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_commentmeta.table.tmpr0.gz (15/20/fopen): adding to final database dump
+0194.241 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_commentmeta.table.gz (16/20/fopen): adding to final database dump
+0194.351 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_comments.table.tmpr0.gz (17/20/fopen): adding to final database dump
+0194.575 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_comments.table.gz (18/20/fopen): adding to final database dump
+0194.777 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_links.table.tmpr0.gz (19/20/fopen): adding to final database dump
+0195.138 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_links.table.gz (20/20/fopen): adding to final database dump
+0195.370 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_postmeta.table.tmpr3595.gz (21/20/fopen): adding to final database dump
+0195.801 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_postmeta.table.gz (22/20/fopen): adding to final database dump
+0195.837 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_posts.table.tmpr868.gz (23/20/fopen): adding to final database dump
+0195.901 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_posts.table.gz (24/20/fopen): adding to final database dump
+0196.013 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_term_relationships.table.tmpr100001.gz (25/20/fopen): adding to final database dump
+0196.121 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_term_relationships.table.gz (26/20/fopen): adding to final database dump
+0196.270 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_term_taxonomy.table.tmpr17.gz (27/20/fopen): adding to final database dump
+0196.754 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_term_taxonomy.table.gz (28/20/fopen): adding to final database dump
+0197.483 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_termmeta.table.tmpr5.gz (29/20/fopen): adding to final database dump
+0197.778 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_termmeta.table.gz (30/20/fopen): adding to final database dump
+0197.857 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_terms.table.tmpr17.gz (31/20/fopen): adding to final database dump
+0197.981 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_terms.table.gz (32/20/fopen): adding to final database dump
+0198.074 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_e_events.table.tmpr0.gz (33/20/fopen): adding to final database dump
+0198.105 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_e_events.table.gz (34/20/fopen): adding to final database dump
+0198.160 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_wpforms_tasks_meta.table.tmpr13.gz (35/20/fopen): adding to final database dump
+0198.198 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_wpforms_tasks_meta.table.gz (36/20/fopen): adding to final database dump
+0198.339 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_wpmailsmtp_debug_events.table.tmpr6.gz (37/20/fopen): adding to final database dump
+0198.497 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_wpmailsmtp_debug_events.table.gz (38/20/fopen): adding to final database dump
+0198.646 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_wpmailsmtp_tasks_meta.table.tmpr3.gz (39/20/fopen): adding to final database dump
+0198.835 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db-table-wp_wpmailsmtp_tasks_meta.table.gz (40/20/fopen): adding to final database dump
+0199.146 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db.gz: finished writing out complete database file (1541.7 KB)
+0199.547 (0) Total database tables backed up: 20 (backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db.gz, size: 1578831, sha1: b6cf5d3aabb5bee8e9716d0918fcc7458f4376f0, sha256: 46bd681303af00cc4e5ee47ab7a3de06bdc750072af1ff74e3c89c14ad5e9637)
+0200.070 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0200.202 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0200.280 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0200.320 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-others.zip: others: This file has not yet been successfully uploaded: will queue
+0200.374 (0) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db.gz: db: This file has not yet been successfully uploaded: will queue
+0200.400 (0) Saving backup history. Total backup size: 59.8 MB
+0200.458 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0200.696 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0200.720 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-13014294b92cb2db2d8b2e03e91fe774)
+0200.923 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0202.528 (0) Successfully updated and refreshed the access token
+0202.642 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0203.708 (0) Dropbox: quota usage: used=0 MB, total=2048 MB, available=2048 MB
+0203.971 (0) Dropbox: Attempt to upload: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip to: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip
+0208.627 (0) Dropbox chunked upload: 4.1 % uploaded (pid_upload_session:ABIFAxFxUZPZo2Mm2JhKR77pLxM3q8ixCwHh3NnPHBYDuUYm, 1048576, 2048 KB)
+0216.050 (0) Dropbox chunked upload: 12.4 % uploaded (pid_upload_session:ABIFAxFxUZPZo2Mm2JhKR77pLxM3q8ixCwHh3NnPHBYDuUYm, 3145728, 2048 KB)
+0224.863 (0) Dropbox chunked upload: 20.7 % uploaded (pid_upload_session:ABIFAxFxUZPZo2Mm2JhKR77pLxM3q8ixCwHh3NnPHBYDuUYm, 5242880, 2048 KB)
+0236.308 (0) Dropbox chunked upload: 29 % uploaded (pid_upload_session:ABIFAxFxUZPZo2Mm2JhKR77pLxM3q8ixCwHh3NnPHBYDuUYm, 7340032, 1536 KB)
+0243.029 (0) Dropbox chunked upload: 35.2 % uploaded (pid_upload_session:ABIFAxFxUZPZo2Mm2JhKR77pLxM3q8ixCwHh3NnPHBYDuUYm, 8912896, 1536 KB)
+0249.629 (0) Dropbox chunked upload: 41.4 % uploaded (pid_upload_session:ABIFAxFxUZPZo2Mm2JhKR77pLxM3q8ixCwHh3NnPHBYDuUYm, 10485760, 2048 KB)
+0257.075 (0) The scheduled resumption is within 45 seconds - will reschedule
+0257.197 (0) Rescheduling resumption 1: moving to 345 seconds from now (1654709961)
+0257.489 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0257.527 (0) Dropbox chunked upload: 49.7 % uploaded (pid_upload_session:ABIFAxFxUZPZo2Mm2JhKR77pLxM3q8ixCwHh3NnPHBYDuUYm, 12582912, 2048 KB)
+0265.011 (0) Dropbox chunked upload: 58 % uploaded (pid_upload_session:ABIFAxFxUZPZo2Mm2JhKR77pLxM3q8ixCwHh3NnPHBYDuUYm, 14680064, 2048 KB)
+0271.537 (0) Dropbox chunked upload: 66.3 % uploaded (pid_upload_session:ABIFAxFxUZPZo2Mm2JhKR77pLxM3q8ixCwHh3NnPHBYDuUYm, 16777216, 2560 KB)
+0279.793 (0) Dropbox chunked upload: 76.7 % uploaded (pid_upload_session:ABIFAxFxUZPZo2Mm2JhKR77pLxM3q8ixCwHh3NnPHBYDuUYm, 19398656, 2560 KB)
+0289.653 (0) Dropbox chunked upload: 87 % uploaded (pid_upload_session:ABIFAxFxUZPZo2Mm2JhKR77pLxM3q8ixCwHh3NnPHBYDuUYm, 22020096, 2048 KB)
+0297.498 (0) Dropbox chunked upload: 95.3 % uploaded (pid_upload_session:ABIFAxFxUZPZo2Mm2JhKR77pLxM3q8ixCwHh3NnPHBYDuUYm, 24117248, 2048 KB)
+0305.710 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIFAxFxUZPZo2Mm2JhKR77pLxM3q8ixCwHh3NnPHBYDuUYm, 25302340, 2048 KB)
+0308.173 (0) Recording as successfully uploaded: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip
+0308.777 (0) Deleting local file: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip: OK
+0308.970 (0) Deleting zip manifest (backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip.list.tmp)
+0309.119 (0) Dropbox: File upload success (backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip): 24709 KB in 105s (234 KB/s)
+0310.431 (0) Dropbox: quota usage: used=24.1 MB, total=2048 MB, available=2023.9 MB
+0310.575 (0) Dropbox: Attempt to upload: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-themes.zip to: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-themes.zip
+0319.903 (0) The time we have been running (319.6) is approaching the resumption interval (345) - increasing resumption interval to 350
+0320.306 (0) Dropbox chunked upload: 13.6 % uploaded (pid_upload_session:ABIFA_EZQhxEz5PBjCtCh7PQEMa4lCu52hM79y9dRinvgycS, 2097152, 2048 KB)
+0329.277 (0) The time we have been running (329.1) is approaching the resumption interval (350) - increasing resumption interval to 360
+0329.392 (0) Dropbox chunked upload: 27.1 % uploaded (pid_upload_session:ABIFA_EZQhxEz5PBjCtCh7PQEMa4lCu52hM79y9dRinvgycS, 4194304, 1536 KB)
+0339.010 (0) The time we have been running (338.3) is approaching the resumption interval (360) - increasing resumption interval to 369
+0339.568 (0) Dropbox chunked upload: 37.3 % uploaded (pid_upload_session:ABIFA_EZQhxEz5PBjCtCh7PQEMa4lCu52hM79y9dRinvgycS, 5767168, 1024 KB)
+0348.083 (0) The time we have been running (347.8) is approaching the resumption interval (369) - increasing resumption interval to 378
+0348.313 (0) Dropbox chunked upload: 44.1 % uploaded (pid_upload_session:ABIFA_EZQhxEz5PBjCtCh7PQEMa4lCu52hM79y9dRinvgycS, 6815744, 1024 KB)
+0354.405 (0) The time we have been running (354.2) is approaching the resumption interval (378) - increasing resumption interval to 385
+0354.535 (0) Dropbox chunked upload: 50.9 % uploaded (pid_upload_session:ABIFA_EZQhxEz5PBjCtCh7PQEMa4lCu52hM79y9dRinvgycS, 7864320, 1024 KB)
+0362.828 (0) The time we have been running (361.4) is approaching the resumption interval (385) - increasing resumption interval to 392
+0363.539 (0) Dropbox chunked upload: 57.6 % uploaded (pid_upload_session:ABIFA_EZQhxEz5PBjCtCh7PQEMa4lCu52hM79y9dRinvgycS, 8912896, 1024 KB)
+0371.007 (0) The time we have been running (370.7) is approaching the resumption interval (392) - increasing resumption interval to 401
+0371.285 (0) Dropbox chunked upload: 64.4 % uploaded (pid_upload_session:ABIFA_EZQhxEz5PBjCtCh7PQEMa4lCu52hM79y9dRinvgycS, 9961472, 1024 KB)
+0378.764 (0) The time we have been running (378.6) is approaching the resumption interval (401) - increasing resumption interval to 409
+0378.806 (0) Dropbox chunked upload: 71.2 % uploaded (pid_upload_session:ABIFA_EZQhxEz5PBjCtCh7PQEMa4lCu52hM79y9dRinvgycS, 11010048, 1024 KB)
+0386.691 (0) The time we have been running (386.4) is approaching the resumption interval (409) - increasing resumption interval to 417
+0387.058 (0) Dropbox chunked upload: 78 % uploaded (pid_upload_session:ABIFA_EZQhxEz5PBjCtCh7PQEMa4lCu52hM79y9dRinvgycS, 12058624, 1024 KB)
+0394.289 (0) The time we have been running (393.9) is approaching the resumption interval (417) - increasing resumption interval to 424
+0394.366 (0) Dropbox chunked upload: 84.8 % uploaded (pid_upload_session:ABIFA_EZQhxEz5PBjCtCh7PQEMa4lCu52hM79y9dRinvgycS, 13107200, 1024 KB)
+0403.108 (0) The time we have been running (400.5) is approaching the resumption interval (424) - increasing resumption interval to 431
+0404.120 (0) Dropbox chunked upload: 91.6 % uploaded (pid_upload_session:ABIFA_EZQhxEz5PBjCtCh7PQEMa4lCu52hM79y9dRinvgycS, 14155776, 1024 KB)
+0416.575 (0) The time we have been running (414.7) is approaching the resumption interval (431) - increasing resumption interval to 445
+0417.349 (0) Dropbox chunked upload: 98.3 % uploaded (pid_upload_session:ABIFA_EZQhxEz5PBjCtCh7PQEMa4lCu52hM79y9dRinvgycS, 15204352, 1024 KB)
+0429.391 (0) The time we have been running (426.7) is approaching the resumption interval (445) - increasing resumption interval to 457
+0430.302 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIFA_EZQhxEz5PBjCtCh7PQEMa4lCu52hM79y9dRinvgycS, 15461157, 1024 KB)
+0435.117 (0) Recording as successfully uploaded: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-themes.zip
+0435.953 (0) Deleting local file: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-themes.zip: OK
+0436.439 (0) Deleting zip manifest (backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-themes.zip.list.tmp)
+0436.766 (0) Dropbox: File upload success (backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-themes.zip): 15098 KB in 126s (119 KB/s)
+0440.357 (0) Dropbox: quota usage: used=38.9 MB, total=2048 MB, available=2009.1 MB
+0440.907 (0) Dropbox: Attempt to upload: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-uploads.zip to: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-uploads.zip
+0454.717 (0) The time we have been running (452.3) is approaching the resumption interval (457) - increasing resumption interval to 483
+0456.307 (0) Dropbox chunked upload: 5.1 % uploaded (pid_upload_session:ABIFA2QXDp3D9e3C22tYKlzKN8kGkpaq1kVROMOB8aC6D7JV, 1048576, 1024 KB)
+0469.459 (0) The time we have been running (468) is approaching the resumption interval (483) - increasing resumption interval to 499
+0469.924 (0) Dropbox chunked upload: 10.3 % uploaded (pid_upload_session:ABIFA2QXDp3D9e3C22tYKlzKN8kGkpaq1kVROMOB8aC6D7JV, 2097152, 1024 KB)
+0484.271 (0) The time we have been running (481.4) is approaching the resumption interval (499) - increasing resumption interval to 512
+0484.950 (0) Dropbox chunked upload: 15.4 % uploaded (pid_upload_session:ABIFA2QXDp3D9e3C22tYKlzKN8kGkpaq1kVROMOB8aC6D7JV, 3145728, 1024 KB)
+0494.457 (0) The time we have been running (494.1) is approaching the resumption interval (512) - increasing resumption interval to 525
+0494.541 (0) Dropbox chunked upload: 20.6 % uploaded (pid_upload_session:ABIFA2QXDp3D9e3C22tYKlzKN8kGkpaq1kVROMOB8aC6D7JV, 4194304, 1024 KB)
+0502.508 (0) The time we have been running (502.4) is approaching the resumption interval (525) - increasing resumption interval to 533
+0502.578 (0) Dropbox chunked upload: 25.7 % uploaded (pid_upload_session:ABIFA2QXDp3D9e3C22tYKlzKN8kGkpaq1kVROMOB8aC6D7JV, 5242880, 1024 KB)
+0510.228 (0) The time we have been running (509.8) is approaching the resumption interval (533) - increasing resumption interval to 540
+0510.403 (0) Dropbox chunked upload: 30.9 % uploaded (pid_upload_session:ABIFA2QXDp3D9e3C22tYKlzKN8kGkpaq1kVROMOB8aC6D7JV, 6291456, 1024 KB)
+0518.104 (0) The time we have been running (518) is approaching the resumption interval (540) - increasing resumption interval to 548
+0518.213 (0) Dropbox chunked upload: 36 % uploaded (pid_upload_session:ABIFA2QXDp3D9e3C22tYKlzKN8kGkpaq1kVROMOB8aC6D7JV, 7340032, 1024 KB)
+0527.077 (0) The time we have been running (526.6) is approaching the resumption interval (548) - increasing resumption interval to 557
+0527.657 (0) Dropbox chunked upload: 41.1 % uploaded (pid_upload_session:ABIFA2QXDp3D9e3C22tYKlzKN8kGkpaq1kVROMOB8aC6D7JV, 8388608, 1024 KB)
+0533.679 (0) The time we have been running (533.2) is approaching the resumption interval (557) - increasing resumption interval to 564
+0534.864 (0) Dropbox chunked upload: 46.3 % uploaded (pid_upload_session:ABIFA2QXDp3D9e3C22tYKlzKN8kGkpaq1kVROMOB8aC6D7JV, 9437184, 1024 KB)
+0547.152 (0) The time we have been running (546.5) is approaching the resumption interval (564) - increasing resumption interval to 577
+0547.455 (0) Dropbox chunked upload: 51.4 % uploaded (pid_upload_session:ABIFA2QXDp3D9e3C22tYKlzKN8kGkpaq1kVROMOB8aC6D7JV, 10485760, 1024 KB)
+0559.550 (0) The time we have been running (559.1) is approaching the resumption interval (577) - increasing resumption interval to 590
+0559.700 (0) The scheduled resumption is within 45 seconds - will reschedule
+0559.782 (0) Rescheduling resumption 1: moving to 635 seconds from now (1654710553)
+0559.870 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 590 + 45 = 635
+0559.891 (0) Dropbox chunked upload: 56.6 % uploaded (pid_upload_session:ABIFA2QXDp3D9e3C22tYKlzKN8kGkpaq1kVROMOB8aC6D7JV, 11534336, 1024 KB)
+0566.832 (0) Dropbox chunked upload: 61.7 % uploaded (pid_upload_session:ABIFA2QXDp3D9e3C22tYKlzKN8kGkpaq1kVROMOB8aC6D7JV, 12582912, 1024 KB)
+0574.335 (0) Dropbox chunked upload: 66.9 % uploaded (pid_upload_session:ABIFA2QXDp3D9e3C22tYKlzKN8kGkpaq1kVROMOB8aC6D7JV, 13631488, 1024 KB)
+0582.963 (0) Dropbox chunked upload: 72 % uploaded (pid_upload_session:ABIFA2QXDp3D9e3C22tYKlzKN8kGkpaq1kVROMOB8aC6D7JV, 14680064, 1024 KB)
+0599.988 (0) Dropbox chunked upload: 77.1 % uploaded (pid_upload_session:ABIFA2QXDp3D9e3C22tYKlzKN8kGkpaq1kVROMOB8aC6D7JV, 15728640, 1024 KB)
+0611.620 (0) The time we have been running (611.5) is approaching the resumption interval (635) - increasing resumption interval to 642
+0611.671 (0) Dropbox chunked upload: 82.3 % uploaded (pid_upload_session:ABIFA2QXDp3D9e3C22tYKlzKN8kGkpaq1kVROMOB8aC6D7JV, 16777216, 1024 KB)
+0619.099 (0) The time we have been running (618.9) is approaching the resumption interval (642) - increasing resumption interval to 649
+0619.190 (0) Dropbox chunked upload: 87.4 % uploaded (pid_upload_session:ABIFA2QXDp3D9e3C22tYKlzKN8kGkpaq1kVROMOB8aC6D7JV, 17825792, 1024 KB)
+0627.434 (0) The time we have been running (627.2) is approaching the resumption interval (649) - increasing resumption interval to 658
+0627.696 (0) Dropbox chunked upload: 92.6 % uploaded (pid_upload_session:ABIFA2QXDp3D9e3C22tYKlzKN8kGkpaq1kVROMOB8aC6D7JV, 18874368, 1024 KB)
+0745.936 (0) The time we have been running (745.7) is approaching the resumption interval (658) - increasing resumption interval to 776
+0746.012 (0) Dropbox chunked upload: 97.7 % uploaded (pid_upload_session:ABIFA2QXDp3D9e3C22tYKlzKN8kGkpaq1kVROMOB8aC6D7JV, 19922944, 1024 KB)
+0748.930 (0) Dropbox: chunked upload exception (Dropbox_Exception):  (line: 242, file: C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+0749.022 (0) An error condition has occurred for the first time during this job
+0753.725 (0) Dropbox: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+0753.826 (0) Dropbox: Attempt to upload: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-others.zip to: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-others.zip
+0756.689 (0) The time we have been running (756.5) is approaching the resumption interval (776) - increasing resumption interval to 787
+0756.816 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIFA1sPb2lVv2Y0vSccMhIz8oUN8mzhmqUCZ2iPH5vzohIb, 144, 1024 KB)
+0759.664 (0) Recording as successfully uploaded: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-others.zip
+0759.849 (0) Deleting local file: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-others.zip: OK
+0759.941 (0) Deleting zip manifest (backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-others.zip.list.tmp)
+0759.969 (0) Dropbox: File upload success (backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-others.zip): 0 KB in 6s (0 KB/s)
+0761.264 (0) Dropbox: quota usage: used=38.9 MB, total=2048 MB, available=2009.1 MB
+0761.408 (0) Dropbox: Attempt to upload: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db.gz to: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db.gz
+0766.820 (0) The time we have been running (766.6) is approaching the resumption interval (787) - increasing resumption interval to 797
+0766.949 (0) Dropbox chunked upload: 66.4 % uploaded (pid_upload_session:ABIFA8zi7JZHozltIzkyrxGebfVPq06XvbFymLo1tGAWr-Gc, 1048576, 1536 KB)
+0772.106 (0) The time we have been running (771.3) is approaching the resumption interval (797) - increasing resumption interval to 802
+0772.312 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIFA8zi7JZHozltIzkyrxGebfVPq06XvbFymLo1tGAWr-Gc, 1578831, 1536 KB)
+0775.284 (0) Recording as successfully uploaded: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db.gz
+0775.491 (0) Deleting local file: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db.gz: OK
+0775.577 (0) Dropbox: File upload success (backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db.gz): 1541 KB in 14s (108 KB/s)
+0775.913 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0775.935 (0) Number of backup sets in history: 2; groups (db): 1
+0775.955 (0) Examining (for databases) backup set with group_id=0, nonce=bf244f5a5fa3, datestamp=1654709359 (Jun 08 2022 17:29:19)
+0776.035 (0) This backup set is the backup set just made, so will not be deleted.
+0776.035 (0) Examining (for databases) backup set with group_id=0, nonce=f6b608fb972e, datestamp=1653242627 (May 22 2022 18:03:47)
+0776.035 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0776.130 (0) Number of backup sets in history: 2; groups (files): 1
+0776.322 (0) Examining (for files) backup set with nonce=bf244f5a5fa3, datestamp=1654709359 (Jun 08 2022 17:29:19)
+0776.322 (0) This backup set is the backup set just made, so will not be deleted.
+0776.563 (0) This backup set is the backup set just made, so will not be deleted.
+0776.564 (0) This backup set is the backup set just made, so will not be deleted.
+0776.564 (0) This backup set is the backup set just made, so will not be deleted.
+0776.564 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0776.701 (0) Examining (for files) backup set with nonce=f6b608fb972e, datestamp=1653242627 (May 22 2022 18:03:47)
+0776.702 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0776.702 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0776.815 (0) Resume backup (bf244f5a5fa3, 0): finish run
+0777.134 (0) Decremented the semaphore (fd) by 1
+0777.439 (0) Semaphore (fd) unlocked
+0777.907 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0778.102 (0) Rescheduling resumption 1: moving to 60 seconds from now (1654710197)
+0778.383 (0) No email will/can be sent - the user has not configured an email address.
+0778.598 (0) The backup has not finished; a resumption is scheduled
+0844.757 (1) Opened log file at time: Wed, 08 Jun 2022 17:43:23 +0000 on http://localhost/wordpress
+0844.923 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.9.3 PHP: 8.0.1 (apache2handler, Windows NT DESKTOP-UKM5NH8 10.0 build 18362 (Windows 10) AMD64) MySQL: 10.4.17-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/8.0.1 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 50M | 6M) multisite: N openssl: OpenSSL 1.1.1i  8 Dec 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0845.179 (1) Free space on disk containing Updraft's temporary directory: 130880.7 MB
+0845.407 (1) Requesting backup semaphore lock (bf244f5a5fa3)
+0846.302 (1) [Debug] Lock option (updraft_lock_bf244f5a5fa3, wp_options) was created in the database
+0846.913 (1) [Info] Lock (updraft_lock_bf244f5a5fa3, wp_options) acquired after initialising the database
+0847.476 (1) Backup run: resumption=1, nonce=bf244f5a5fa3, file_nonce=bf244f5a5fa3 begun at=1654709359 (847s ago), job type=backup, previous check-in=771.27s
+0847.767 (1) Scheduling a resumption (2) after 802 seconds (1654711008) in case this run gets aborted
+0848.483 (1) Checking if we have a zip executable available
+0849.016 (1) Creation of backups of directories: already finished
+0849.281 (1) Saving backup status to database (elements: 8)
+0849.732 (1) Database dump (WordPress DB): Creation was completed already
+0849.957 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0850.541 (1) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-plugins.zip: plugins: This file has already been successfully uploaded
+0850.833 (1) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-themes.zip: themes: This file has already been successfully uploaded
+0851.264 (1) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0851.727 (1) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-others.zip: others: This file has already been successfully uploaded
+0851.882 (1) backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-db.gz: db: This file has already been successfully uploaded
+0851.952 (1) Saving backup history. Total backup size: Unknown
+0852.070 (1) Requesting upload of the files that have not yet been successfully uploaded (1)
+0852.186 (1) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0852.252 (1) Beginning dispatch of backup to remote (dropbox) (instance identifier s-13014294b92cb2db2d8b2e03e91fe774)
+0852.310 (1) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0852.510 (1) Dropbox: access gained; setting chunk size to: 1536 KB
+0853.593 (1) Dropbox: quota usage: used=40.4 MB, total=2048 MB, available=2007.6 MB
+0853.794 (1) Dropbox: This is a resumption: 19922944 bytes had already been uploaded
+0853.860 (1) Dropbox: Attempt to upload: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-uploads.zip to: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-uploads.zip
+0859.902 (1) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIFA2QXDp3D9e3C22tYKlzKN8kGkpaq1kVROMOB8aC6D7JV, 20390547, 1536 KB)
+0863.011 (1) Recording as successfully uploaded: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-uploads.zip
+0863.891 (1) Deleting local file: backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-uploads.zip: OK
+0864.081 (1) Deleting zip manifest (backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-uploads.zip.list.tmp)
+0864.294 (1) Dropbox: File upload success (backup_2022-06-08-1729_Landlopers_bf244f5a5fa3-uploads.zip): 19912 KB in 10s (1896 KB/s)
+0865.735 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0865.989 (1) Number of backup sets in history: 2; groups (db): 1
+0866.307 (1) Examining (for databases) backup set with group_id=0, nonce=bf244f5a5fa3, datestamp=1654709359 (Jun 08 2022 17:29:19)
+0866.400 (1) This backup set is the backup set just made, so will not be deleted.
+0866.400 (1) Examining (for databases) backup set with group_id=0, nonce=f6b608fb972e, datestamp=1653242627 (May 22 2022 18:03:47)
+0866.401 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0866.544 (1) Number of backup sets in history: 2; groups (files): 1
+0866.665 (1) Examining (for files) backup set with nonce=bf244f5a5fa3, datestamp=1654709359 (Jun 08 2022 17:29:19)
+0866.665 (1) This backup set is the backup set just made, so will not be deleted.
+0866.907 (1) This backup set is the backup set just made, so will not be deleted.
+0867.111 (1) This backup set is the backup set just made, so will not be deleted.
+0867.112 (1) This backup set is the backup set just made, so will not be deleted.
+0867.112 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0867.723 (1) Examining (for files) backup set with nonce=f6b608fb972e, datestamp=1653242627 (May 22 2022 18:03:47)
+0867.723 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0867.724 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0867.941 (1) Resume backup (bf244f5a5fa3, 1): finish run
+0868.536 (1) [Info] Lock option (updraft_lock_bf244f5a5fa3, wp_options) released
+0869.477 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+0870.326 (1) No email will/can be sent - the user has not configured an email address.
+0870.524 (1) The backup apparently succeeded and is now complete
